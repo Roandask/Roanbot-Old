@@ -1,7 +1,5 @@
-Roanbot/bin
-Roanbot/obj
-Roanbot/Service References
-ModuleBase/bin
-ModuleBase/obj
+**/bin/
+**/obj/
+**/Service References/
 *.user
 *.suo
