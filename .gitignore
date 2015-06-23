@@ -1,5 +1,7 @@
 Roanbot/bin
 Roanbot/obj
 Roanbot/Service References
+ClassLibrary1/bin
+ClassLibrary1/obj
 *.user
 *.suo
