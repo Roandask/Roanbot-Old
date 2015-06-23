@@ -18,7 +18,7 @@ namespace Pathfinder
         private static Random rand = new Random();      //This rolls the dice (surprise surprise!)
 
         /// <summary>
-        /// Invokes the main class' addCommand method with commands this function will handle.
+        /// Invokes the main class' addCommand method with commands this class will handle.
         /// </summary>
         /// <param name="obj">The main class that handles Skype messages.</param>
         public override void addReferences(object obj)  //This method is required by Roanbot so that it can load generic modules without modifying base code.

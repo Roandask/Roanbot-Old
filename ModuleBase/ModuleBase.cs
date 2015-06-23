@@ -14,7 +14,7 @@ namespace ModuleBase
     public abstract class ModuleBase
     {
         /// <summary>
-        /// Invokes the main class' addCommand method with commands this function will handle.
+        /// Invokes the main class' addCommand method with commands this class will handle.
         /// </summary>
         /// <param name="obj">The main class that handles Skype messages.</param>
         public abstract void addReferences(object obj);
