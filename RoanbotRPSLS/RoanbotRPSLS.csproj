@@ -62,6 +62,7 @@
     <ProjectReference Include="..\ModuleBase\ModuleBase.csproj">
       <Project>{5E73AF90-9842-4472-B0F8-C2508C1CB2DD}</Project>
       <Name>ModuleBase</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

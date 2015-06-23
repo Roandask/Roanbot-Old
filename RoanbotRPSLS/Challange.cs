@@ -137,5 +137,11 @@ namespace RoanbotRPSLS
             }
             return false;
         }
+
+        public override int GetHashCode()
+        {
+            String s = this.challanger + this.challanged + this.chatName;
+            return s.GetHashCode();
+        }
     }
 }
