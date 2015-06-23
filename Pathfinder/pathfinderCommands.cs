@@ -13,7 +13,7 @@ namespace Pathfinder
     /// Registers commands to Roanbot and processes the commands it gets sent. Should only be sent commands it registered.
     /// Extends ModuleBase.
     /// </summary>
-    class pathfinderCommands : ModuleBase.ModuleBase
+    class PathfinderCommands : ModuleBase.ModuleBase
     {
         private static Random rand = new Random();      //This rolls the dice (surprise surprise!)
 

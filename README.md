@@ -1,2 +1,4 @@
 # Roanbot
 Code for the Skype bot "Roanbot" created by Roandask. Roanbot dynamically loads all .dll files in the Modules folder. The only required files are: Skype4COM.dll, Roanbot.exe, ModuleBase.dll, and BasicCommands.dll. All except the last one should be located in the same folder, with BasicCommands being located in the Modules folder (subject to change in future versions, since it really shouldn't be).
+
+By placing .dll files in the Updates folder, when Roanbot next starts up it will automatically copy files into the Modules folder and replace any files of the same name. It deletes the files in Updates when done with them. To have Roanbot automatically restart, the owner can give the "!reload" command (with relevant trigger).

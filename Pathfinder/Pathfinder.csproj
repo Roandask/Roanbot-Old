@@ -37,7 +37,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="pathfinderCommands.cs" />
+    <Compile Include="PathfinderCommands.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
